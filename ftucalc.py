@@ -72,6 +72,7 @@ def write_record(record, output_filename):
         f.write("Fetu FTU Residue: "+str(word.ftu_residue)+"\n")
         f.write("Fetu HWord Word: "+str(word.hword.wrd)+"\n")
         f.write("Fetu HWord FTU: "+str(word.hword.ftu)+"\n")
-        f.write("Fetu HWord Val: "+str(word.hword.val)+"\n")
+        f.write("Fetu HWord Val: "+str(word.hword.val)+"\n\n")
     f.close()
 
+def fetu_scroll(
