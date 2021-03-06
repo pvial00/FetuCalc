@@ -1,55 +1,36 @@
-Fetu Word: [19, 7, 8, 18]
-Fetu FTU: 5
-Fetu Dbl: [12, 14, 16, 10]
-Fetu Tri: [24, 2, 6, 20]
-Fetu Qua: [22, 4, 12, 14]
-Fetu FTU Val: 53
-Fetu FTU Weight: 14
-Fetu FTU Residue: 4
-Fetu HWord Word: [1, 0, 0, 0]
-Fetu HWord FTU: 5
-Fetu HWord Val: 3
-Fetu Word: [8, 18]
-Fetu FTU: 3
-Fetu Dbl: [16, 10]
-Fetu Tri: [6, 20]
-Fetu Qua: [12, 14]
-Fetu FTU Val: 27
-Fetu FTU Weight: 14
-Fetu FTU Residue: 2
-Fetu HWord Word: [1, 0, 0, 0]
-Fetu HWord FTU: 5
-Fetu HWord Val: 3
-Fetu Word: [0]
-Fetu FTU: 2
-Fetu Dbl: [0]
-Fetu Tri: [0]
-Fetu Qua: [0]
-Fetu FTU Val: 1
-Fetu FTU Weight: 2
-Fetu FTU Residue: 0
-Fetu HWord Word: [0, 1, 0, 0]
-Fetu HWord FTU: 5
-Fetu HWord Val: 3
-Fetu Word: [19, 4, 18, 19]
-Fetu FTU: 5
-Fetu Dbl: [12, 8, 10, 12]
-Fetu Tri: [24, 16, 20, 24]
-Fetu Qua: [22, 6, 14, 22]
-Fetu FTU Val: 61
-Fetu FTU Weight: 16
-Fetu FTU Residue: 1
-Fetu HWord Word: [1, 0, 0, 1]
+Fetu Word: [1, 4, 19, 4, 11, 6, 4, 20, 18, 4]
+Fetu FTU: 11
+Fetu Dbl: [2, 8, 12, 8, 22, 12, 8, 14, 10, 8]
+Fetu Tri: [4, 16, 24, 16, 18, 24, 16, 2, 20, 16]
+Fetu Qua: [8, 6, 22, 6, 10, 22, 6, 4, 14, 6]
+Fetu FTU Val: 92
+Fetu FTU Weight: 10
+Fetu FTU Residue: 10
+Fetu HWord Word: [1, 1, 0, 0]
 Fetu HWord FTU: 5
 Fetu HWord Val: 2
-Fetu Word: [12, 4, 18, 18, 0, 6, 4]
-Fetu FTU: 8
-Fetu Dbl: [24, 8, 10, 10, 0, 12, 8]
-Fetu Tri: [22, 16, 20, 20, 0, 24, 16]
-Fetu Qua: [18, 6, 14, 14, 0, 22, 6]
-Fetu FTU Val: 63
-Fetu FTU Weight: 10
-Fetu FTU Residue: 2
-Fetu HWord Word: [0, 1, 0, 0]
+
+Fetu Word: [7, 4, 16, 4, 19]
+Fetu FTU: 6
+Fetu Dbl: [14, 8, 6, 8, 12]
+Fetu Tri: [2, 16, 12, 16, 24]
+Fetu Qua: [4, 6, 24, 6, 22]
+Fetu FTU Val: 51
+Fetu FTU Weight: 11
+Fetu FTU Residue: 5
+Fetu HWord Word: [0, 1, 1, 1]
 Fetu HWord FTU: 5
-Fetu HWord Val: 3
+Fetu HWord Val: 1
+
+Fetu Word: [7, 4, 7]
+Fetu FTU: 4
+Fetu Dbl: [14, 8, 14]
+Fetu Tri: [2, 16, 2]
+Fetu Qua: [4, 6, 4]
+Fetu FTU Val: 19
+Fetu FTU Weight: 7
+Fetu FTU Residue: 3
+Fetu HWord Word: [0, 1, 1, 1]
+Fetu HWord FTU: 5
+Fetu HWord Val: 1
+
