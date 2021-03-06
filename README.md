@@ -17,8 +17,9 @@ A Fetu HWord or hieroword is a binary representation of Fetu features of the wor
 
 - HWord Sequences
 
-0. Word
-1. FTU
-2. Word Value
+0. Word FTU modulo 2
+1. Word FTU + Word FTU Value modulo 2
+2. FTU Weight modulo 2
+3. FTU Residue modulo 2
 
 ---
