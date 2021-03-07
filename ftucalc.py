@@ -1,6 +1,6 @@
 ''' KryptoMagick Fetu Calculator '''
 ''' (Uvajda) - 2021 '''
-''' Version 'AA' '''
+''' Version 'AB' '''
 ''' This calculator provides the basic Fetu functions '''
 
 def double(word):
@@ -40,6 +40,7 @@ class HWord:
 
 class Word:
     def __init__(self, word):
+        self.name = word
         self.wrd = []
         for w in word:
             self.wrd.append(ord(w) - 65)
@@ -62,6 +63,7 @@ def process_text(text):
 def write_record(record, output_filename):
     f = open(output_filename, "w")
     for word in record:
+        f.write("Latin word: "+str(word.name)+"\n")
         f.write("Fetu Word: "+str(word.wrd)+"\n")
         f.write("Fetu FTU: "+str(word.ftu)+"\n")
         f.write("Fetu Dbl: "+str(word.dbl)+"\n")
