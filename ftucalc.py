@@ -62,7 +62,8 @@ def process_text(text):
 
 def write_record(record, output_filename):
     f = open(output_filename, "w")
-    for word in record:
+    for n, word in enumerate(record):
+        f.write("Record number: "+str(n)+"\n")
         f.write("Latin word: "+str(word.name)+"\n")
         f.write("Fetu Word: "+str(word.wrd)+"\n")
         f.write("Fetu FTU: "+str(word.ftu)+"\n")
