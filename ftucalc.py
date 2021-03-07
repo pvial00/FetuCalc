@@ -1,6 +1,6 @@
 ''' KryptoMagick Fetu Calculator '''
 ''' (Uvajda) - 2021 '''
-''' Version 'AB' '''
+''' Version 'AC' '''
 ''' This calculator provides the basic Fetu functions '''
 
 def double(word):
@@ -59,6 +59,20 @@ def process_text(text):
         for word in line.split():
             record.append(Word(word))
     return record
+
+def fetu_residue_frequency(record):
+    last = -1
+    c = 0
+    periods = []
+    for r in record:
+        if r.ftu_residue == last:
+            #periods.append((r.ftu_residue, c))
+            periods.append(c)
+            c = 0
+        else:
+            c += 1
+        last = r.ftu_residue
+    return periods
 
 def write_record(record, output_filename):
     f = open(output_filename, "w")

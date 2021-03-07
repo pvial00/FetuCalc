@@ -2,7 +2,7 @@ import sys
 from ftucalc import *
 
 ''' KryptoMagick Fetu Calculator Standalone '''
-''' Version 'AB'  '''
+''' Version 'AC'  '''
 
 ''' Usage: python3 fetucalc.py inputfile outpufile '''
 
