@@ -44,4 +44,3 @@ A Fetu HWord or hieroword is a binary representation of Fetu features of the wor
 11. Fetu Secret Modulus
 12. Fetu Secret Key
 13. Fetu Stamp
-14. Fetu Blinding
